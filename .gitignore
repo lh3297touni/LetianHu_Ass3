@@ -11,3 +11,12 @@ wheels/
 
 # Environment variables
 .env
+
+data/
+*.pt
+*.pth
+*.bin
+
+*.ipynb
+*.csv
+uv.lock
