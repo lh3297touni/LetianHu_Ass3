@@ -1,22 +1,26 @@
-# Python-generated files
+# Python-generated
 __pycache__/
 *.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
 
 # Virtual environments
-.venv
-
-# Environment variables
+.venv/
 .env
 
+# Build artifacts
+build/
+dist/
+*.egg-info
+wheels/
+
+# data
 data/
 *.pt
 *.pth
 *.bin
+*.gz    # 包括 CIFAR/MNIST 压缩包
+*.tar.gz
 
-*.ipynb
+
+
 *.csv
 uv.lock
